@@ -129,5 +129,49 @@ button {
     padding-top: 125px;
 }
 
+h1{
+    font-size: 65px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-left: 368px;
+    width: 955px;
+}
+
+body{
+    margin: 0px 8px;
+}
+
+.navbar {
+    width: 955px;
+    height: 28px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #2d2654;
+    padding: 10px 10px 14px 10px;
+}
+
+.navbar-items {
+    padding: 0;
+    list-style: none;
+    margin: 8px 0 0 278px;
+    color: #bbb;
+    font-size: 14px;
+    font-family: DroidSans;
+}
+
+.menu-item {
+    float: left;
+    position: relative;
+    margin: 0 12px 0 12px;
+}
+
+.menu-item a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.header {
+    padding-bottom: 0px;
+}
 
 

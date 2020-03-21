@@ -1,74 +1,75 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/styles.css">
-        <title>Page Title</title>
+        <title>My Web Page</title>
     </head>
     <body>
         <div class="header"> 
-            <h1>Bilal Iftikhar</h1>
+            <h1 class="mx-auto" style="width:250px;">Bilal Iftikhar</h1>
         </div>
-        <div class="navbar"> 
-            <ul class="navbar-items">
-                <li class="menu-item">
-                    <a href="./index.html">About Me</a>
+        <div class="navbar" style="background-color: #2d2654;"> 
+            <ul class="navbar-nav bd-navbar-nav flex-row mx-auto" style="width: 450px;">
+                <li class="nav-item px-3">
+                    <a class="nav-link" style="color: #ccc;" href="./index.html">About Me</a>
                 </li>
-                <li class="menu-item">
-                    <a href="www.google.com">Blog</a>
+                <li class="nav-item px-3">
+                    <a class="nav-link" style="color: #ccc;" href="www.google.com">Blog</a>
                 </li>
-                <li class="menu-item">
-                    <a href="www.google.com">Books</a>
+                <li class="nav-item px-3">
+                    <a class="nav-link" style="color: #ccc;" href="www.google.com">Books</a>
                 </li>
-                <li class="menu-item">
-                    <a href="./contact.html">Contact Me</a>
+                <li class="nav-item px-3">
+                    <a class="nav-link" style="color: #ccc;" href="./contact.html">Contact Me</a>
                 </li>
-                <li class="menu-item">
-                    <a href="www.google.com">Hire Me</a>
+                <li class="nav-item px-3">
+                    <a class="nav-link" style="color: #ccc;" href="www.google.com">Hire Me</a>
                 </li>
             </ul>
         </div>
-        <h2>About Me</h2>
-        <div class="main1">
-        
-
-            <span class='bio-section'>
-                <p>Student and Web Developer</p>
-                <p>My Name is Bilal Iftikhar and I am Computer Science Major at <a href="https://www.lehman.cuny.edu/">Lehman College</a> of the City University of New York. I will be Graduating in July of 2020. 
-                    Contact me <a href="./contact.html">here</a></p>
-                <p>The Following is list of course that i am taking this semester:</p>
-                <ul>
-                    <li>CMP 464</li>
-                    <li>CMP 334</li>
-                    <li>CMP 417</li>
-                    <li>CMP 405</li>
-                </ul>
-
-                <div class='languages'>
-                    <div class='lang-title'>Programming Languages</div>
+        <h2 class="ml-2 py-4 border-bottom border-secondary">About Me</h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class='col-9 border-right border-secondary' >
+                    <p>Student and Web Developer</p>
+                    <p>My Name is Bilal Iftikhar and I am Computer Science Major at <a href="https://www.lehman.cuny.edu/">Lehman College</a> of the City University of New York. I will be Graduating in July of 2020. 
+                        Contact me <a href="./contact.html">here</a></p>
+                    <p>The Following is list of course that i am taking this semester:</p>
                     <ul>
-                        <li class='lang'>Java</li>
-                        <li class='lang'>HTML & CSS</li>
-                        <li class='lang'>Python</li>
-                        <li class='lang'>SQL</li>
-                        <li class='lang'>PHP</li>
+                        <li>CMP 464</li>
+                        <li>CMP 334</li>
+                        <li>CMP 417</li>
+                        <li>CMP 405</li>
                     </ul>
+
+                    <div class='languages'>
+                        <div class='lang-title'>Programming Languages</div>
+                        <ul>
+                            <li class='lang'>Java</li>
+                            <li class='lang'>HTML & CSS</li>
+                            <li class='lang'>Python</li>
+                            <li class='lang'>SQL</li>
+                            <li class='lang'>PHP</li>
+                        </ul>
+                    </div>
                 </div>
-            </span>
-            <span class='image-section'>
-                <img src="./img/IMG_3862.jpg" alt="my picture" height="200" width="160">
-                <div class="connect-with-me">
-                    <p>connect with me</p>
-                    <a href="https://www.facebook.com">
-                        <img src="./img/facebook-icon.png" alt="facebook" height="30" width="30">
-                    </a>
-                    <a href="https://www.twitter.com">
-                        <img src="./img/twitter-icon.png" alt="twitter" height="30" width="30">
-                    </a>
-                    <a href="https://www.linkedin.com">
-                        <img src="./img/linkedin-icon.png" alt="linkedin" height="30" width="30">
-                    </a>
+                <div class='col-3'>
+                    <img src="./img/IMG_3862.jpg" alt="my picture" height="200" width="160" >
+                    <div class="connect-with-me">
+                        <p>connect with me</p>
+                        <a href="https://www.facebook.com">
+                            <img src="./img/facebook-icon.png" alt="facebook" height="30" width="30" class="rounded">
+                        </a>
+                        <a href="https://www.twitter.com">
+                            <img src="./img/twitter-icon.png" alt="twitter" height="30" width="30" class="rounded">
+                        </a>
+                        <a href="https://www.linkedin.com">
+                            <img src="./img/linkedin-icon.png" alt="linkedin" height="30" width="30" class="rounded">
+                        </a>
+                    </div>
                 </div>
-            </span>
+            </div>
         </div>
     </body>
 </html>

@@ -1,59 +1,63 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/styles.css">
-
-        <title>Contact me</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/styles.css">
+        <title>My Web Page</title>
     </head>
     <body>
         <div class="header"> 
-            <h1>Bilal Iftikhar</h1>
+            <h1 class="mx-auto" style="width: 250px;">Bilal Iftikhar</h1>
         </div>
-        <div class="navbar"> 
-            <ul class="navbar-items">
-                <li class="menu-item">
-                    <a href="./index.html">About Me</a>
+        <div class="navbar" style="background-color: #2d2654;"> 
+            <ul class="navbar-nav bd-navbar-nav flex-row mx-auto" style="width: 450px;">
+                <li class="nav-item px-3">
+                    <a class="nav-link" style="color: #ccc;" href="./index.html">About Me</a>
                 </li>
-                <li class="menu-item">
-                    <a href="www.google.com">Blog</a>
+                <li class="nav-item px-3">
+                    <a class="nav-link" style="color: #ccc;" href="www.google.com">Blog</a>
                 </li>
-                <li class="menu-item">
-                    <a href="www.google.com">Books</a>
+                <li class="nav-item px-3">
+                    <a class="nav-link" style="color: #ccc;" href="www.google.com">Books</a>
                 </li>
-                <li class="menu-item">
-                    <a href="./contact.html">Contact Me</a>
+                <li class="nav-item px-3">
+                    <a class="nav-link" style="color: #ccc;" href="./contact.html">Contact Me</a>
                 </li>
-                <li class="menu-item">
-                    <a href="www.google.com">Hire Me</a>
+                <li class="nav-item px-3">
+                    <a class="nav-link" style="color: #ccc;" href="www.google.com">Hire Me</a>
                 </li>
             </ul>
         </div>
-        <h2>Contact Me</h2>
-        <div class="main1">
-            <span>
-                <form>
-                    <div class="name">
-                        <input type="text" id="name" placeholder="Name">
-                    </div>
-                    <div class="email">
-                        <input type="text" id="email" placeholder="Email">
-                    </div>
-                    <div class="phone">
-                        <input type="text" id="phone" placeholder="Phone">
-                    </div>
-                    <div class="message">
-                        <textarea type="text" id="message" placeholder="Message" class="input-msg"></textarea>
-                    </div>
-                </form>
-                <button class="send">Send</button>
-            </span>
-            <span>
-                <div class="intouch"></divclass>Feel free to reach out to me if you need more information about myself or my experience,
-                    I will be more than happy to provide you with the information.
+        <h2 class="ml-2 py-4 border-bottom border-secondary">Contact Me</h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-7" >
+                
+                    <form>
+                        <div class="name input-group input-group-lg mb-2">
+                            <input type="text" id="name" placeholder="Name" class="form-control">
+                        </div>
+                        <div class="email input-group input-group-lg mb-2">
+                            <input type="text" id="email" placeholder="Email" class="form-control">
+                        </div>
+                        <div class="phone input-group input-group-lg mb-2">
+                            <input type="text" id="phone" placeholder="Phone" class="form-control">
+                        </div>
+                        <div class="message input-group input-group-lg mb-2">
+                            <textarea type="text" id="message" placeholder="Message" class="input-msg form-control"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-dark">Send</button>
+                
                 </div>
-                <div class="reply">I promise to reply ASAP</div>
-                <div class="note">Note: No spam/soliciting </div>
-            </span>
+                <div class= "col-5">
+                    <div class="intouch"></divclass>Feel free to reach out to me if you need more information about myself or my experience,
+                        I will be more than happy to provide you with the information.
+                    </div>
+                    <div class="reply">I promise to reply ASAP</div>
+                    <div class="note">Note: No spam/soliciting </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>

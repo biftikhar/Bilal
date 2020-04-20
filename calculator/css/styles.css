@@ -1,0 +1,17 @@
+.display{
+    background: black;
+    color: white;
+    height: 80px;
+    width:500px;
+}
+
+.keys{
+    background:lightgray;
+    color: black;
+    width:500px;
+}
+
+.col-sm{
+    border: darkblue 1px solid;
+    height: 60px;
+}

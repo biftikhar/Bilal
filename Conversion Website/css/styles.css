@@ -1,0 +1,34 @@
+.display{
+    background: black;
+    color: white;
+    height: 80px;
+    width:500px;
+}
+
+.keys{
+    background:#d3d3d3;
+    color: black;
+    width:500px;
+}
+
+.col-sm{
+    border: darkblue 1px solid;
+    height: 60px;
+
+}
+
+.conversion-content {
+    max-width: 600px;
+    min-width: 500px;
+
+}
+
+.menu-items-from.visible,
+.menu-items-to.visible {
+    display: block;
+}
+
+.menu-items-from,
+.menu-items-to {
+    display: none;
+}
